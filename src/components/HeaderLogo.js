@@ -1,6 +1,7 @@
+import './HeaderLogo.css'
 const HeaderLogo = () => {
     return (
-      <div>
+      <div className="headerLogo">
        Postmates
       </div>
     );

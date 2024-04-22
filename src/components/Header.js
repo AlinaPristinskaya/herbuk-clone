@@ -6,7 +6,7 @@ import HeaderAuto from './HeaderAuto';
 const Header = () => {
   return (
     <div className='header'>
-     <div>
+     <div className='header-item'>
       <HeaderMenu></HeaderMenu>
       <HeaderLogo></HeaderLogo>
      </div>

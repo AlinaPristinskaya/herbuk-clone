@@ -1,0 +1,9 @@
+.burger{
+    width: 32px;
+    height: 32px;
+}
+.clockSvg{
+    width: 24px;
+    height: 24px;
+    align-self: center;
+}

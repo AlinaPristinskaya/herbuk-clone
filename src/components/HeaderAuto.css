@@ -1,0 +1,29 @@
+a {
+    color: currentColor;
+    text-decoration: none;
+  }
+
+.link{
+    
+    padding: 12px;
+    border-radius: 500px;
+    white-space: nowrap;
+    line-height: 18px;
+    font-weight: 500;
+    font-size: 14px;
+}
+    
+
+.link_light{
+    height: 36px;
+    color: #2F3137;
+    background: #F3F3F3;
+    margin-right: 16px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1), 0px 4px 4px rgba(0, 0, 0, 0.04);
+}
+.link_dark{
+    background: #2F3137;
+    color: #FFFFFF;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1), 0px 4px 4px rgba(0, 0, 0, 0.04);
+
+}

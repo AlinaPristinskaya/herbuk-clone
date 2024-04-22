@@ -1,0 +1,19 @@
+.footer{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 72px;
+    padding-bottom: 88px;
+    background-color: #000000;
+    color: white;
+}
+.footerHr{
+    background-color: #F6F6F8;
+    margin: 40px 0;
+    border: none;
+    height: 1px;
+}
+.logo{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 70px;
+}

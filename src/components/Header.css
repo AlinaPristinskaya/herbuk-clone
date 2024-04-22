@@ -1,3 +1,18 @@
 .header{
-    background-color: #FFE13C;;
-}
+    display: flex;
+    align-items:baseline;
+    justify-content: space-between;
+    height: 36px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }  
+  .header-item{
+    display: flex;
+    gap:40px;
+    align-self: center;
+  }
+  .links{
+    align-self: center;
+  }

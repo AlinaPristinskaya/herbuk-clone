@@ -1,0 +1,61 @@
+
+
+
+ 
+
+
+input{
+    padding: 0;
+    border: 0;
+    font: inherit;
+    color: inherit;
+    letter-spacing: inherit; 
+    font-size: 16px;
+}
+   
+.loc{
+    width: 500px;
+    background-color: white;
+    padding: 8px 16px;
+    display: flex;
+    align-content: center;
+
+}
+.flex{
+    display: flex;
+    gap: 10px;
+}
+.clock{
+
+background-color: white;
+padding: 8px 16px;
+display: flex;
+align-content: center;
+gap: 10px;
+
+    
+}
+select{
+    
+        padding: 0;
+        border: 1px solid white;
+        font: inherit;
+        color: inherit;
+        letter-spacing: inherit; 
+        font-size: 16px;
+        font-weight: 500;
+        font-family: inherit;
+    
+}
+.searchButton{
+    padding: 12px 16px;
+    min-height: 56px;
+    text-transform: uppercase;
+    letter-spacing: 1.24px;
+    line-height: 12px;
+    line-height: 12px;
+    background: #2F3137;
+    color: #FFFFFF;
+    border-radius: 500px;
+    cursor: pointer;
+}

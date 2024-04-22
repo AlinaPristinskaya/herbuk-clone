@@ -1,8 +1,10 @@
+import './HeaderAuto.css'
+
 const HeaderAuto = () => {
     return (
-      <div>
-       <button>Log In</button>
-       <button>Sing Up</button>
+      <div className="links">
+       <a href="" className="link link_light">Log In</a>
+       <a href="" className="link link_dark">Sing Up</a>
       </div>
     );
   };

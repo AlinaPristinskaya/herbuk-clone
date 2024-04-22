@@ -7,7 +7,7 @@ const Main = () => {
      <div className='bgColor'>
         <div>
          <h1>Order on Postmates</h1>
-         <p>Get food, drinks, groceries, and more delivered.</p>
+         <h2>Get food, drinks, groceries, and more delivered.</h2>
         </div>
         <div><FormOrder></FormOrder></div>
      </div>

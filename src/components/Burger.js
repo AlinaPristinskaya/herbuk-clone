@@ -1,11 +1,12 @@
+import './Burger.css'
 const Burger = () => {
     return (
-      
-        <defs>
-        <symbol id="icon-burger" viewBox="0 0 32 32">
-        <path d="M4.8 8c0-0.884 0.716-1.6 1.6-1.6h19.2c0.884 0 1.6 0.716 1.6 1.6s-0.716 1.6-1.6 1.6h-19.2c-0.884 0-1.6-0.716-1.6-1.6v0zM4.8 16c0-0.884 0.716-1.6 1.6-1.6h19.2c0.884 0 1.6 0.716 1.6 1.6s-0.716 1.6-1.6 1.6h-19.2c-0.884 0-1.6-0.716-1.6-1.6v0zM4.8 24c0-0.884 0.716-1.6 1.6-1.6h19.2c0.884 0 1.6 0.716 1.6 1.6s-0.716 1.6-1.6 1.6h-19.2c-0.884 0-1.6-0.716-1.6-1.6v0z"></path>
-        </symbol>
-        </defs>
+        <svg className='burger' version="1.1" viewBox="0 0 12 12"><g>
+        <rect fill="#1D1D1B" height="1" width="11" x="0.5" y="5.5"/>
+        <rect fill="#1D1D1B" height="1" width="11" x="0.5" y="2.5"/>
+        <rect fill="#1D1D1B" height="1" width="11" x="0.5" y="8.5"/>
+        </g></svg>
+
         
     );
   };
