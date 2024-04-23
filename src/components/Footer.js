@@ -2,7 +2,7 @@ import './Footer.css'
 import Fb from './Fb.js'
 import Twitter from './Twitter.js'
 import Inst from './Inst.js'
-
+import Icon from './Icon.js'
 import dowload from "./app-store-png-logo-33115.png"
 
 const Footer = () => {
@@ -50,6 +50,10 @@ const Footer = () => {
           <div className='listAbout'>
             <p>This site is protected by reCAPTCHA and the Google<a>Privacy Policy</a>and<a>Terms of Service</a> apply. </p>
             <p>© 2024  Postmates Inc.</p>
+          </div>
+          <div> Iconki <Icon id="icon-facebook" classname="sprite"></Icon>
+          Iconki <Icon id="icon-instagram" classname="sprite"></Icon>
+          Iconki <Icon id="icon-twitter" classname="sprite"></Icon>
           </div>
         </div>
       </div>
