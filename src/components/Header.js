@@ -10,8 +10,7 @@ const Header = () => {
       <HeaderMenu></HeaderMenu>
       <HeaderLogo></HeaderLogo>
      </div>
-     <div>
-     </div>
+    
      <HeaderAuto></HeaderAuto>
     </div>
   );

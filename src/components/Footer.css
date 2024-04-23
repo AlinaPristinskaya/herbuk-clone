@@ -3,7 +3,7 @@
     padding-right: 40px;
     padding-top: 72px;
     padding-bottom: 88px;
-    background-color: #000000;
+    background-color:black;
     color: white;
 }
 .footerHr{
@@ -16,4 +16,52 @@
     font-size: 24px;
     font-weight: 700;
     line-height: 70px;
+    flex: 2;
+}
+.footerFlex{
+    display: flex;
+}
+.flexFirst{
+    width: calc(100% / 2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.flexIcon{
+    display: flex;
+    gap: 10px;
+}
+.flexList{
+    display: flex;
+    width: calc(100% / 2);
+}
+ul{
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.list{
+    width: calc(100% / 2);  
+}
+.list > li{
+    margin-bottom: 16px;
+}
+.footerEnd{
+    display: flex;
+    justify-content: space-between;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    
+}
+.listAbout{
+    align-self: flex-end;
+    display: flex;
+    gap: 40px;
+    
+}
+.socLink{
+    margin-right: 16px;
 }

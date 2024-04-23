@@ -1,48 +1,53 @@
 import './Footer.css'
+import Fb from './Fb.js'
+import Twitter from './Twitter.js'
+import Inst from './Inst.js'
+
+import dowload from "./app-store-png-logo-33115.png"
 
 const Footer = () => {
   return (
     <div className="footer">
-      <div>
-        <div>
+      <div className='footerFlex'>
+        <div className='flexFirst'>
           <div className='logo'>Postmates</div>
-          <div>
-            <p>img appStore</p>
-            <p>img googleplay</p>
+          <div className='flexIcon'>
+            <img alt="dowload" height={40} src={dowload}></img>
           </div>
         </div>
         
-        <div>
-          <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+        <div className='flexList'>
+          <ul className='list'>
+            <li><a>Get Help</a></li>
+            <li><a>Buy gift cards</a></li>
+            <li><a>Add your restaurant</a></li>
+            <li><a>Sign up to deliver</a></li>
+            <li><a>Save on your first order</a></li>
+            
+          </ul>
+          <ul className='list'>
+            <li><a>Nearby restaurants</a></li>
+            <li><a>View all cities</a></li>
+            <li><a>Pickup near me</a></li>
+            <li><a>English</a></li>
           </ul>
         </div>
       </div>
       <hr className='footerHr'></hr>
-      <div>
+      <div className='footerEnd'>
         <div>
-          <a>link fb</a>
-          <a>linf twitter</a>
-          <a>lint inst</a>
+         <a className='socLink'><Fb></Fb></a>
+         <a className='socLink'><Twitter></Twitter></a>
+         <a><Inst></Inst></a>
         </div>
-        <div>
-          <div>
-          <ul>
+        <div className='info'>
+          <ul className='listAbout'>
             <li >Privasy Policy</li>
             <li>Terms</li>
             <li>Prising</li>
             <li>Do not sell or share my personal information</li>
           </ul>
-          </div>
-          <div>
+          <div className='listAbout'>
             <p>This site is protected by reCAPTCHA and the Google<a>Privacy Policy</a>and<a>Terms of Service</a> apply. </p>
             <p>© 2024  Postmates Inc.</p>
           </div>
@@ -53,3 +58,5 @@ const Footer = () => {
 };
 
 export default Footer;
+
+

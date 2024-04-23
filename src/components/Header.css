@@ -1,7 +1,7 @@
 .header{
     display: flex;
     align-items:baseline;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     height: 36px;
     padding-left: 40px;
     padding-right: 40px;
@@ -10,6 +10,7 @@
   }  
   .header-item{
     display: flex;
+    flex: 2;
     gap:40px;
     align-self: center;
   }
