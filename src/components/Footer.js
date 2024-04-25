@@ -1,9 +1,6 @@
 import './Footer.css'
-import Fb from './Fb.js'
-import Twitter from './Twitter.js'
-import Inst from './Inst.js'
-import Icon from './Icon.js'
 import dowload from "./app-store-png-logo-33115.png"
+import Link from './Link.js'
 
 const Footer = () => {
   return (
@@ -36,9 +33,9 @@ const Footer = () => {
       <hr className='footerHr'></hr>
       <div className='footerEnd'>
         <div>
-         <a className='socLink'><Fb></Fb></a>
-         <a className='socLink'><Twitter></Twitter></a>
-         <a><Inst></Inst></a>
+         <Link name="facebook"></Link>
+         <Link name="instagram"></Link>
+         <Link name="twitter"></Link>
         </div>
         <div className='info'>
           <ul className='listAbout'>
@@ -51,10 +48,6 @@ const Footer = () => {
             <p>This site is protected by reCAPTCHA and the Google<a>Privacy Policy</a>and<a>Terms of Service</a> apply. </p>
             <p>© 2024  Postmates Inc.</p>
           </div>
-          <div> Iconki <Icon id="icon-facebook" classname="sprite"></Icon>
-          Iconki <Icon id="icon-instagram" classname="sprite"></Icon>
-          Iconki <Icon id="icon-twitter" classname="sprite"></Icon>
-          </div>
         </div>
       </div>
     </div>
@@ -64,3 +57,5 @@ const Footer = () => {
 export default Footer;
 
 
+// the footer passes props to the Link component
+// The Link component draws the required image based on the condition

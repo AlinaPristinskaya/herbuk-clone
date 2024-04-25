@@ -17,3 +17,6 @@ function App() {
 }
 
 export default App;
+
+// the footer passes props to the Link component
+// The Link component draws the required image based on the condition

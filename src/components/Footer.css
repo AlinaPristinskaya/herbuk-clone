@@ -3,7 +3,7 @@
     padding-right: 40px;
     padding-top: 72px;
     padding-bottom: 88px;
-    background-color:rgb(58, 38, 38);
+    background-color:black;
     color: white;
 }
 .footerHr{
@@ -61,11 +61,4 @@ ul{
     display: flex;
     gap: 40px;
     
-}
-.socLink{
-    margin-right: 16px;
-}
-
-.sprite{
-    fill:aqua
 }
